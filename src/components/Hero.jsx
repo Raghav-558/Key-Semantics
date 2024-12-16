@@ -4,7 +4,7 @@ import CustomButton from '../common/CustomButton'
 
 const Hero = () => {
   return (
-    <div className='bg-hero bg-cover bg-center bg-no-repeat '>
+    <div className='bg-hero bg-cover bg-center bg-no-repeat bg-light-gray'>
       <Header />
       <div className='max-w-[1232px] mx-auto px-4'>
         <div className='pt-[198px] pb-[287px] max-lg:py-36 max-md:py-[60px]'>

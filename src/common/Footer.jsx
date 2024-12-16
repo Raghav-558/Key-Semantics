@@ -1,14 +1,24 @@
 import React from 'react'
-import SubHeading from './SubHeading'
-import Description from './Description'
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear()
+
   return (
-      <div className='bg-footer bg-cover bg-center bg-no-repeat py-24'>
-          <div className='max-w-[1232px] mx-auto px-4'>
-              <SubHeading text="How does KeySemantics work?" myClass="text-dark-blue text-center max-md:text-2xl max-[520px]:max-w-[320px] mx-auto text-white" />
-              <Description text="Request a demo for your team and let us show you how KeySemantics can help your company" myClass="text-white text-center pt-2"/>
-          </div>
+    <div className='bg-deep-blue py-6 max-lg:px-4'>
+      <div className='max-w-[1232px] mx-auto px-4'>
+        <div className='justify-between flex items-center'>
+          <p className='text-xs text-light-purple leading-7'>
+            ©{currentYear} KeySemantics GmbH | Ramsenburgweg 24, 9100 Herisau,
+            Switzerland
+          </p>
+          <a
+            className='text-light-purple text-xs underline leading-7'
+            href='mailto:info@keysemantics.ch'
+          >
+            info@keysemantics.ch
+          </a>
+        </div>
+      </div>
     </div>
   )
 }

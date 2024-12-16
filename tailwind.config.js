@@ -11,10 +11,14 @@ module.exports = {
       },
       colors: {
         "dark-blue": "#191A42",
-        "light-purple": "#ECE8F8",
+        "light-purple": "#7C7DB9",
         "light-green": "#E3F7FA",
         "light-pink": "#FCE7EF",
-        "light-gray": "#F7F9FB"
+        "light-gray": "#F7F9FB",
+        gray: "#C9CAD4",
+        "deep-blue": "#111235",
+        "light-blue": "#48C3D7",
+        "navy-blue":"#24254B"
       },
       screens: {
         xlg: '1050px',
