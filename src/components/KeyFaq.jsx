@@ -89,7 +89,7 @@ const KeyFaq = () => {
               className='h-[337px] max-sm:h-60 object-cover rounded-md max-md:mx-auto sticky top-0'
             />
           </div>
-          <div className='w-1/2 max-md:w-full max-md:pt-8 max-lg:pl-5 lg:pl-12 max-lg:px-3'>
+          <div className='w-1/2 max-md:w-full max-md:pt-8 max-lg:pl-5 lg:pl-9 max-lg:px-3'>
             <SubHeading
               text='Key Q&A'
               myClass='text-dark-blue max-md:text-center'

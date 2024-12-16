@@ -8,13 +8,13 @@ const KeyApi = () => {
     <div className='pb-[82px] max-lg:pb-[60px] max-md:pb-0 api'>
       <div className='max-w-[1232px] px-4 mx-auto'>
         <Lottie
-          className='w-full analytics-api max-md:hidden'
+          className='w-full max-md:hidden'
           loop
           animationData={InfographyKey}
           play
         />
         <Lottie
-          className='h-[900px] analytics-api md:hidden'
+          className='h-[900px] md:hidden'
           loop
           animationData={Mobile}
           play

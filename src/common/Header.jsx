@@ -3,7 +3,7 @@ import CustomButton from './CustomButton'
 
 const Header = () => {
   return (
-    <div className='pt-[49px] max-md:pt-8'>
+    <div className='pt-[47px] max-md:pt-8'>
       <div className='max-w-[1232px] mx-auto px-4'>
         <div className='flex items-center justify-between'>
           <img

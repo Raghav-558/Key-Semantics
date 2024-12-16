@@ -6,7 +6,7 @@ const DataSecurity = () => {
   return (
     <CustomCard
       myClass='flex-row-reverse pb-[90px] max-lg:pb-0 max-md:pb-[60px]'
-      myCustom='lg:pl-12'
+      myCustom='lg:pl-9'
       text='Data Security and Hosting'
       myImage='/assets/images/data-security.webp'
       myList={DATA_SECURITY_LIST}
