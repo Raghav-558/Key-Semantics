@@ -5,7 +5,7 @@ import { KEY_SEMANTICS_LIST } from '../utils/helper'
 
 const KeyWork = () => {
   return (
-    <div className='pt-24 pb-6 max-lg:pt-[60px]'>
+    <div className='pt-24 max-lg:pt-[60px]'>
       <div className='pb-14 max-lg:pb-8'>
         <SubHeading
           text='How does KeySemantics work?'
