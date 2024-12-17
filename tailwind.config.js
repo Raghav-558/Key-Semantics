@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "hero": "url('/public/assets/images/hero-bg.webp')",
-        "footer": "url('/public/assets/images/footer-bg.webp')"
+        "form": "url('/public/assets/images/form-bg.webp')"
       },
       colors: {
         "dark-blue": "#191A42",

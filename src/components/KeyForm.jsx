@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import SubHeading from '../common/SubHeading'
 import Description from '../common/Description'
-import CustomButton from '../common/CustomButton'
 
 const FORM_LIST = {
   name: '',
@@ -30,7 +29,7 @@ const KeyForm = () => {
   }
 
   return (
-    <div className='bg-footer bg-cover bg-center bg-no-repeat py-24 max-lg:py-[60px] '>
+    <div className='bg-form bg-cover bg-center bg-no-repeat py-24 max-lg:py-[60px] '>
       <div className='max-w-[1232px] mx-auto px-4'>
         <SubHeading
           text='How does KeySemantics work?'
@@ -51,7 +50,7 @@ const KeyForm = () => {
             placeholder='Name'
             className='placeholder:text-light-purple text-light-purple rounded-[48px] bg-navy-blue mx-auto outline-none border-transparent py-4 w-[320px] pl-5'
           />
-          <p className='text-red-700 font-bold text-left'>
+          <p className='text-red-700'>
             {error && !value.name && 'Name is required'}
           </p>
           <input
@@ -61,7 +60,7 @@ const KeyForm = () => {
             placeholder='Email'
             className='placeholder:text-light-purple text-light-purple mt-2 outline-none border-transparent rounded-[48px] bg-navy-blue mx-auto py-4 w-[320px] pl-5'
           />
-          <p className='text-red-700 font-bold text-left'>
+          <p className='text-red-700'>
             {error && !value.email && 'Email is required'}
           </p>
           <input
@@ -71,7 +70,7 @@ const KeyForm = () => {
             placeholder='Company'
             className='placeholder:text-light-purple text-light-purple mt-2 outline-none border-transparent rounded-[48px] bg-navy-blue mx-auto py-4 w-[320px] pl-5'
           />
-          <p className='text-red-700 font-bold text-left'>
+          <p className='text-red-700'>
             {error && !value.company && 'Company is required'}
           </p>
           <input
@@ -81,7 +80,7 @@ const KeyForm = () => {
             placeholder='Phone (optional)'
             className='placeholder:text-light-purple text-light-purple mt-2 outline-none border-transparent rounded-[48px] bg-navy-blue mx-auto py-4 w-[320px] pl-5'
           />
-          <p className='text-red-700 font-bold text-left'>
+          <p className='text-red-700'>
             {error && !value.number && 'Number is required'}
           </p>
           <p className='text-center text-light-purple mt-4 mb-6 text-[10px]'>
