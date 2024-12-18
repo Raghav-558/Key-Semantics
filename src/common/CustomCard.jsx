@@ -10,7 +10,7 @@ const CustomCard = ({ myClass, text, myImage, myList ,myCustom }) => {
           <div className={`w-1/2 max-md:w-full max-lg:px-3 ${myCustom}`}>
             <SubHeading
               text={text}
-              myClass='max-lg:leading-9 max-md:text-center max-md:pb-2 max-sm:pb-0 text-dark-blue'
+              myClass='max-lg:leading-9 max-md:text-center max-md:pb-2 max-sm:pb-0 text-dark-blue max-lg:text-2xl'
             />
             <ul className='list-disc pl-6'>
               {myList.map((obj, i) => (

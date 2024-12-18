@@ -92,7 +92,7 @@ const KeyFaq = () => {
           <div className='w-1/2 max-md:w-full max-md:pt-8 max-lg:pl-5 lg:pl-9 max-lg:px-3'>
             <SubHeading
               text='Key Q&A'
-              myClass='text-dark-blue max-md:text-center'
+              myClass='text-dark-blue max-md:text-center max-md:text-2xl'
             />
             <div className='pb-4'>
               {KEY_LIST.map((obj, i) => (
