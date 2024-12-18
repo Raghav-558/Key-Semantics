@@ -48,7 +48,7 @@ const KeyForm = () => {
             onChange={e => setValue({ ...value, name: e.target.value })}
             type='text'
             placeholder='Name'
-            className='placeholder:text-light-purple text-light-purple rounded-[48px] bg-navy-blue mx-auto outline-none border-transparent py-4 w-[320px] pl-5'
+            className='placeholder:text-light-purple text-white rounded-[48px] bg-navy-blue mx-auto outline-none border-transparent py-4 w-[320px] pl-5'
           />
           <p className='text-red-700'>
             {error && !value.name && 'Name is required'}
@@ -58,7 +58,7 @@ const KeyForm = () => {
             onChange={e => setValue({ ...value, email: e.target.value })}
             type='email'
             placeholder='Email'
-            className='placeholder:text-light-purple text-light-purple mt-2 outline-none border-transparent rounded-[48px] bg-navy-blue mx-auto py-4 w-[320px] pl-5'
+            className='placeholder:text-light-purple text-white mt-2 outline-none border-transparent rounded-[48px] bg-navy-blue mx-auto py-4 w-[320px] pl-5'
           />
           <p className='text-red-700'>
             {error && !value.email && 'Email is required'}
@@ -68,9 +68,9 @@ const KeyForm = () => {
             onChange={e => setValue({ ...value, company: e.target.value })}
             type='text'
             placeholder='Company'
-            className='placeholder:text-light-purple text-light-purple mt-2 outline-none border-transparent rounded-[48px] bg-navy-blue mx-auto py-4 w-[320px] pl-5'
+            className='placeholder:text-light-purple text-white mt-2 outline-none border-transparent rounded-[48px] bg-navy-blue mx-auto py-4 w-[320px] pl-5'
           />
-          <p className='text-red-700'>
+          <p className='text-red-700 '>
             {error && !value.company && 'Company is required'}
           </p>
           <input
@@ -78,11 +78,8 @@ const KeyForm = () => {
             onChange={e => setValue({ ...value, number: e.target.value })}
             type='number'
             placeholder='Phone (optional)'
-            className='placeholder:text-light-purple text-light-purple mt-2 outline-none border-transparent rounded-[48px] bg-navy-blue mx-auto py-4 w-[320px] pl-5'
+            className='placeholder:text-light-purple text-white mt-2 outline-none border-transparent rounded-[48px] bg-navy-blue mx-auto py-4 w-[320px] pl-5'
           />
-          <p className='text-red-700'>
-            {error && !value.number && 'Number is required'}
-          </p>
           <p className='text-center text-light-purple mt-4 mb-6 text-[10px]'>
             By submitting my contact information I agree to the KeySemantics
             Privacy Policy

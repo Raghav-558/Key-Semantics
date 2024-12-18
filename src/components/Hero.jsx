@@ -17,7 +17,7 @@ const Hero = () => {
           <div className='flex justify-center mt-12 max-md:mt-6'>
             <CustomButton
               buttonText='Get started'
-              myClass='hover:bg-white hover:text-dark-blue hover:border-dark-blue transtition-all duration-300 px-8 py-5 bg-dark-blue text-white text-base font-medium border border-transparent max-md:px-5 max-lg:py-3'
+              myClass='hover:bg-white hover:text-dark-blue hover:border-dark-blue transtition-all duration-300 px-[31px] py-[18px] bg-dark-blue text-white text-base font-medium border border-transparent max-md:px-5 max-lg:py-3'
             />
           </div>
         </div>

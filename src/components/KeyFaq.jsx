@@ -97,7 +97,7 @@ const KeyFaq = () => {
             <div className='pb-4'>
               {KEY_LIST.map((obj, i) => (
                 <ul key={i} className='pt-2 max-md:pt-2'>
-                  <li className='ml-6 list-disc text-dark-blue font-normal'>
+                  <li className='ml-6 list-disc text-dark-blue'>
                     {obj}
                   </li>
                 </ul>
@@ -114,7 +114,7 @@ const KeyFaq = () => {
             ))}
             <CustomButton
               buttonText='Get a demo'
-              myClass='text-sm leading-5 font-normal text-dark-blue py-3 px-4 border border-dark-blue mt-6 hover:bg-dark-blue hover:text-white transition-all duration-300'
+              myClass='text-sm leading-5 text-dark-blue py-3 px-4 border border-dark-blue mt-6 hover:bg-dark-blue hover:text-white transition-all duration-300'
             />
           </div>
         </div>

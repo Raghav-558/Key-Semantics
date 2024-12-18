@@ -1,4 +1,5 @@
 import './App.css';
+import BackToTop from './common/BackToTop';
 import Footer from './common/Footer';
 import DataSecurity from './components/DataSecurity';
 import HeadlessSearch from './components/HeadlessSearch';
@@ -18,7 +19,8 @@ function App() {
       <HeadlessSearch />
       <DataSecurity/>
       <KeyForm/>
-      <Footer/>
+      <Footer />
+      <BackToTop/>
     </div>
   );
 }
